@@ -38,4 +38,9 @@ public class Mahasiswa {
         return prodi;
     }
     
+    //method get detail
+    public String getDetail(){
+        return "NPM : "+npm +"\nNama : " + nama + "nProdi : " + prodi;
+    }
+    
 }
